@@ -1,0 +1,430 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+}
+#openbox{
+    display: none;
+    height: 132px;
+    width: 150px;
+    border: none;
+    box-shadow: 0 8px 8px rgba(0, 0, 0, 0.2), 0 0 40px rgba(0, 0, 0, 0.1) ;
+    position: absolute;
+    top: 45px;
+    left: 400px;
+    background-color:rgb(26, 25, 25);
+    border-radius: 20px;
+    text-align: center;
+    padding: 20px;
+    transition: transform 0.5s;
+    
+}
+#openbox a{
+    text-decoration: none ;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 400;
+    color: rgb(156, 154, 154);
+    cursor: pointer;
+    margin: 20px;
+}
+#openbox a:hover{
+    color: white;
+}
+#neftout{
+    width: 30px;
+}
+.a1{
+ position: relative;
+ left: -39px;
+ top: -2px;
+}
+.a2{
+    position: relative;
+    left: -21px;
+    top: 20px;
+
+}
+header {
+
+    height: 11vh;
+    background-color: rgb(26, 25, 25);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    box-shadow: 0 8px 8px rgba(0, 0, 0, 0.2), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+
+header::before,
+header::after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0, 8);
+
+
+}
+
+/* Logo section */
+img {
+    height: 50px;
+    margin-left: 25px;
+    margin-top: 2px;
+}
+
+.main {
+    font-family: Relative sans-serif;
+    margin-top: 15px;
+    font-weight: 400;
+    font-size: 1.5rem;
+
+}
+
+.logo {
+    display: flex;
+    color: white;
+    font-family: Relative, sans-serif;
+    cursor: pointer;
+}
+
+
+/* Home, Dashboard & Earn section */
+.links {
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 400;
+    color: rgb(156, 154, 154);
+    cursor: pointer;
+}
+.links:hover{
+    color: white;
+}
+/* Trade section */
+.trade {
+    background-color: rgb(62, 180, 137);
+    width: 62px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.trade a {
+
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+
+.trade:hover {
+    background-color: rgb(26, 121, 86);
+
+}
+
+/* Connect wallet section */
+.wallet {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 45px;
+    width: 150px;
+    border: 0.5px solid white;
+    border-radius: 5px;
+}
+.wallet:hover{
+    background-color: rgb(40, 39, 39);
+}
+/* Ethereum section */
+.circle i {
+    font-size: 12px;
+}
+
+.circle {
+    height: 18px;
+    width: 18px;
+    border-radius: 100px;
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hr {
+    height: 18px;
+    width: 1px;
+    background-color: white;
+}
+
+.ethereum {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 40px;
+    width: 80px;
+    border: 0.5px solid white;
+    border-radius: 5px;
+    margin-right: 30px;
+    color: white;
+}
+.ethereum:hover{
+    background-color: rgb(40, 39, 39);
+
+}
+
+/* Section ern-1 */
+body{
+    background-color: rgb(26, 25, 25);
+}
+.earn1{
+    height: 264vh;
+}
+.title3{
+    height: 100px;
+    width: 25%;
+    /* border: 1px solid white; */
+    margin-left: 32px;
+    margin-top: 45px;
+}
+.title3 h1{
+color: white;
+font-size: 34px;
+font-weight: 700;
+line-height: 49px;
+}
+.title3 p{
+color:#b7b7bd;
+font-size: 15px;
+font-weight: 400;
+line-height: 24px;
+margin-top: 5px;
+}
+.table3{
+    width: 1200px;
+    margin: auto;
+    height: 905.35px;
+    margin-top: 5px;
+    /* border: 1px solid white; */
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+}
+.table3-1{
+    background-color: rgb(21, 20, 20);
+    width: 592.5px;
+    height: 513px;
+    padding: 1rem 1.5rem ;
+    border: 1px solid #4d4d4e;
+    border-radius: 0.4rem;
+    font-size: 1.5rem;
+    display:flex;
+    flex-direction: column;
+}
+.tablehead{
+    width: 561.17px;
+    height: 15px;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21px;
+    /* border: 1px solid white; */
+}
+.divider{
+    height: 1px;
+    width: 591.7px;
+    background: #4d4d4e;
+    margin: 1.05rem -1.5rem;
+    position: relative;
+    /* top: -6px; */
+}
+.data{
+    margin: 5px;
+    display: flex;
+    /* border: 1px solid red; */
+    height: 22px;
+    justify-content: space-between;
+}
+.datah{
+font-size: 18px;
+font-weight: 400;
+line-height: 22px;
+color: rgba(255, 255, 255, 0.7);
+}
+.datavalue{
+    font-size: 16px;
+font-weight: 400;
+line-height: 22px;
+color: white;
+    text-decoration: underline dotted;
+}
+.tablebtn{
+    /* border-top:1px solid #4d4d4e;  */
+    width: 100%;
+    margin-top: 10px;
+    
+    display: flex;
+    
+}
+.tablebtn button{
+    /* margin-top:12px; */
+    width: 101.25px;
+    height: 32px;
+   
+}
+
+
+/* Table-2 */
+.btn{
+    background-color:rgb(62, 180, 137) ;
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+.btn:hover{
+    background-color: rgb(43, 123, 94) ;
+}
+.data2{
+    margin: 4px;
+    display: flex;
+    /* border: 1px solid red; */
+    height: 22px;
+    justify-content: space-between; 
+}
+.divider2{
+    height: 1px;
+    width: 591.7px;
+    background: #4d4d4e;
+    margin: 1.05rem -1.5rem;
+    position: relative;
+    top: 172px;
+}
+.tablebtn2 button{
+    width: 131px;
+    height: 36px;
+    position: relative;
+    top: 25px;
+    left: 25px;
+
+}
+.table3-2{
+    background-color: rgb(21, 20, 20);
+    width: 592.5px;
+    height: 513px;
+    padding: 1rem 1.5rem ;
+    border: 1px solid #4d4d4e;
+    border-radius: 0.4rem;
+    font-size: 1.5rem;
+    display:flex;
+    flex-direction: column;
+    position: relative;
+    left: 604px;
+    top: -512px;
+}
+
+
+/* Table -3 */
+.btn3{
+    margin: 5px;
+}
+.table3-3{
+    background-color: rgb(21, 20, 20);
+    width: 592.5px;
+    height: 415.58px;
+    padding: 1.5rem 1.5rem 1.86rem;
+    border: 1px solid #4d4d4e;
+    border-radius: 0.4rem;
+    font-size: 1.5rem;
+    position: relative;
+    top: -499px;
+    left: 0px;
+    
+}
+
+/* Table-4 */
+.btn4{
+    position: relative;
+    top: 10px;
+    width: 131px;
+    height: 36px;
+}
+.table3-4{
+    background-color: rgb(21, 20, 20);
+    width: 592.5px;
+    height: 415.58px;
+    padding: 1.5rem 1.5rem 1.86rem;
+    border: 1px solid #4d4d4e;
+    border-radius: 0.4rem;
+    font-size: 1.5rem;
+    position: relative;
+    left: 604px;
+    top: -915px
+}
+
+/* Section earn-2 */
+.title4{
+    color: white;
+    height: 100px;
+    width: 35%;
+    /* border: 1px solid white; */
+    margin-left: 32px;
+    margin-top: 90px;
+}
+.title4 h1{
+    color: white;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 49px
+}
+.title4 p{
+    color:#b7b7bd;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 5px;
+}
+
+.table4-1{
+    background-color: rgb(21, 20, 20);
+    display: inline;
+    float: left;
+    width: 592.5px;
+    height: 266.8px;
+    padding: 1.5rem 1.5rem 1.86rem;
+    border: 1px solid #4d4d4e;
+    border-radius: 0.4rem;
+    position: relative;
+    top: 32px;
+    left: 37px
+}
+.table4-2{
+    background-color: rgb(21, 20, 20);
+    width: 592.5px;
+    height: 266.8px;
+    padding: 1.5rem 1.5rem 1.86rem;
+    border: 1px solid #4d4d4e;
+    border-radius: 0.4rem;
+    display: inline;
+    float: right;
+    position: relative;
+    top: 32px;
+    left: -29px;
+}
+
+/* Section Vest */
+.btn5{
+    position: relative;
+    /* top: 10px; */
+    width: 131px;
+    height: 36px;
+}
+
+/* Foot section */
+.section5{
+    background-color: #151515;
+    height: 34vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
